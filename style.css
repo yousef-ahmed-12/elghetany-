@@ -1,0 +1,80 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: #64de9375; /* نفس لون الخلفية */
+}
+.navbar ul li a{
+    /* background-color: aqua; */
+    margin-left:50px;
+
+}
+.navbar-brand{
+    color: rgb(10, 75, 1);
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.imge img {
+  width: 99vw;
+  height:92vh;
+  object-fit: cover;
+  display: block;
+}
+footer {
+  background-color: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+
+.fruits h1{
+    color: #1b5e20;
+    text-align: center;
+}
+.fruits ul li a{
+    text-decoration: none;
+    color: black;
+    margin-top:10px;
+    font-size: 30px;
+}
+.fruits ul li {
+    color: black;
+    margin-top:10px;
+}
+
+.fruits ul {
+    color: black;
+    border: 2px solid green;
+    margin-top: 30px;
+    border-radius: 50px;
+    background-color: #0ef01d32;
+}
